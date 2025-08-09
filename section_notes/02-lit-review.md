@@ -1,5 +1,7 @@
 # Literature Review
 
+# Literature Review
+
 ## Summary
 
 *Provide an overview of the existing literature...*
@@ -21,3 +23,6 @@
 ## Research Gaps
 
 *Identify gaps in the current literature that your research addresses...*
+
+---
+*This section is being enhanced by The Research Company AI Agent*
