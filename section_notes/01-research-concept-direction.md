@@ -6,7 +6,7 @@
 
 ## Key Research Questions
 
-1.   How do gila monsters survive 
+1.   How do gila monsters survive so long without eating?
 2. 
 3. 
 
