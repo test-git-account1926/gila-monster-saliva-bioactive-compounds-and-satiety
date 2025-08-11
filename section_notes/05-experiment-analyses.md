@@ -1,6 +1,4 @@
-# Experiment Analyses
 
-# Experiment Analyses
 
 ## Summary of Findings
 
