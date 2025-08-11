@@ -98,5 +98,57 @@
 2. **Assumption**: Therapeutic compounds are rare in natural venoms
    **Flip**: Systematic proteomics reveals extensive pharmaceutical potential in overlooked venoms
 
+4. **Assumption**: Modern drug development surpasses natural evolution
+   **Flip**: Natural evolution produces superior multi-target therapeutics that outperform rational drug design
+
+5. **Assumption**: Venom research should focus on toxicology
+   **Flip**: Venom research should prioritize therapeutic discovery and physiological function analysis
+
 3. **Assumption**: Venom evolution always trends toward increased toxicity
    **Flip**: Some lineages optimize for conservation and multifunctionality rather than diversification
+
+---
+
+### Paper 5: Drug Discovery and Development of Semaglutide and Tirzepatide from the Gila monsters (Heloderma spp) (Olimat & AL-Olimat, 2025)
+
+**Problem**: Type 2 diabetes and obesity require more effective therapeutic agents beyond traditional insulin management approaches.
+
+**Prior Assumptions**:
+- Rational synthetic drug design produces optimal therapeutic compounds
+- Single-target drugs are preferable to multi-mechanism approaches
+- Natural products cannot compete with engineered pharmaceuticals
+
+**Insight**: Gila monster-derived exendin-4 led to development of superior multi-mechanism drugs (semaglutide, tirzepatide) that outperform synthetic alternatives through integrated GLP-1 pathway modulation affecting both diabetes and obesity.
+
+**Technical Approach**:
+- Structure-activity relationship analysis of exendin-4
+- Development of long-acting analogs (semaglutide, tirzepatide)
+- Clinical trials demonstrating dual diabetes/weight loss benefits
+- Brain-gut axis mechanism characterization
+
+**Evaluation**: Semaglutide and tirzepatide show superior clinical outcomes compared to traditional diabetes medications, with tirzepatide achieving more pronounced weight loss through enhanced brain effects.
+
+**Impact**: Validates natural product superiority over synthetic design and establishes precedent for multi-target therapeutic development from venom compounds.
+
+---
+
+### Paper 6: Therapeutic Potential of Peptides Derived from Animal Venoms: Current Views and Emerging Drugs for Diabetes (Coulter-Parkhill et al., 2021)
+
+**Problem**: Comprehensive assessment of venom-derived peptide therapeutic potential for diabetes management was needed.
+
+**Prior Assumptions**:
+- Venom peptides are primarily toxic rather than therapeutic
+- Limited number of useful compounds exist in animal venoms
+- Synthetic alternatives are safer than natural venom derivatives
+
+**Insight**: Animal venoms contain extensive therapeutic peptide libraries with diabetes management potential, representing untapped pharmaceutical resources with unique mechanisms.
+
+**Technical Approach**:
+- Systematic review of venom-derived diabetes therapeutics
+- Analysis of peptide structure-activity relationships
+- Assessment of clinical development pipelines
+- Safety and efficacy comparisons
+
+**Evaluation**: Identified multiple venom-derived compounds in development beyond exendin-4, demonstrating broad therapeutic potential.
+
+**Impact**: Establishes venom-derived peptides as legitimate pharmaceutical platform and highlights need for systematic venom screening programs.
