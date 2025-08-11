@@ -1,6 +1,3 @@
-# Literature Review
-
-# Literature Review
 
 ## Summary
 
