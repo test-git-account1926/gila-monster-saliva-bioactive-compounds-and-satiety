@@ -1,5 +1,7 @@
 # Experiment Analyses
 
+# Experiment Analyses
+
 ## Summary of Findings
 
 *Provide overall analysis summary and key insights...*
@@ -25,3 +27,6 @@
 ## Next Steps
 
 *Based on your analyses, what are the next steps?*
+
+---
+*This section is being enhanced by The Research Company AI Agent*
