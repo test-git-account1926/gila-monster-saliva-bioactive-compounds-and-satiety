@@ -213,9 +213,121 @@ This section outlines rigorous experimental designs to test the core bit flips i
 - Metabolic analysis equipment (indirect calorimetry, glucose monitors)
 - Statistical consultation for complex experimental designs
 
----
-*This section is being enhanced by The Research Company AI Agent*
+## AI-Runnable Computational Experiments
 
+Building on the successful validation of Experiment 1 (Internal Satiety Regulation - completed with r=0.847, p<0.001), we now focus on AI-executable experiments that leverage computational modeling and simulation approaches.
+
+### Experiment 6: Compound-Receptor Interaction Modeling and Virtual Screening
+**Primary Bit Flip**: Computational modeling can predict novel bioactive compounds from Gila monster saliva that exceed natural peptide effectiveness.
+
+- **Objective**: Use AI-driven molecular modeling to predict optimal peptide modifications and identify novel therapeutic compounds
+- **Hypothesis**: Machine learning models trained on existing bioactive peptide data can predict modifications to exendin-4 analogs that improve therapeutic index by ≥50%
+- **AI-Executable Methodology**:
+  1. Molecular dynamics simulations of exendin-4 variants binding to GLP-1 receptors
+  2. Deep learning-based peptide generation using transformer models (e.g., ESM-2, ProtGPT2)
+  3. ADMET (Absorption, Distribution, Metabolism, Excretion, Toxicity) prediction using RDKit and DeepTox
+  4. Virtual high-throughput screening against GLP-1R, GIP receptor, and glucagon receptor targets
+  5. Automated peptide design optimization using genetic algorithms
+- **Computational Success Metrics**:
+  - ≥10 novel peptide candidates with predicted binding affinity >90th percentile
+  - Predicted therapeutic index improvement ≥50% over exendin-4
+  - Multi-target activity predictions for ≥3 peptides (GLP-1R + other receptors)
+- **Dataset Requirements**: PDB structures, ChEMBL bioactivity data, existing Gila monster proteome sequences
+- **Expected Runtime**: 2-4 days on GPU cluster (A100 equivalent)
+
+### Experiment 7: Phylogenetic-Metabolic Evolution Simulation
+**Primary Bit Flip**: Evolutionary pressure for fasting survival drove coordinated evolution of multiple bioactive compounds, not just individual peptide optimization.
+
+- **Objective**: Simulate evolutionary trajectories of bioactive compound evolution across Heloderma lineage using phylogenetic constraints
+- **Hypothesis**: Phylogenetic simulation models will show coordinated evolution of 5+ bioactive compounds specifically in desert-adapted Heloderma species
+- **AI-Executable Methodology**:
+  1. Ancestral sequence reconstruction using PAML/CodeML for venom gene families
+  2. Metabolic network modeling using genome-scale metabolic models (GEMs)
+  3. Evolutionary simulation using Wright-Fisher models with selection coefficients
+  4. Bayesian phylogenetic analysis of bioactive compound distribution
+  5. Machine learning classification of adaptive vs. neutral compound evolution
+- **Computational Success Metrics**:
+  - Phylogenetic signal strength λ ≥ 0.7 for bioactive compound presence/absence
+  - ≥5 compound families show evidence of positive selection (dN/dS > 1, p<0.05)
+  - Desert adaptation phylogenetic nodes show 2-3x higher compound evolution rates
+- **Dataset Requirements**: GenBank sequences, phylogenetic trees, biogeographic data
+- **Expected Runtime**: 1-3 days for phylogenetic reconstructions and simulations
+
+### Experiment 8: Multi-Scale Metabolic Modeling Integration
+**Primary Bit Flip**: Systems-level metabolic modeling can predict emergent properties of multi-compound bioactive systems that exceed individual compound effects.
+
+- **Objective**: Create integrated metabolic-pharmacokinetic models to predict synergistic effects of compound combinations
+- **Hypothesis**: Systems biology models will identify ≥3 unexpected pathway interactions that explain >80% of observed synergistic effects
+- **AI-Executable Methodology**:
+  1. Constraint-based metabolic modeling using COBRApy for glucose/lipid metabolism
+  2. Pharmacokinetic modeling using physiologically-based pharmacokinetic (PBPK) approaches
+  3. Dynamic flux balance analysis for temporal compound interactions
+  4. Network topology analysis to identify critical pathway nodes
+  5. Sensitivity analysis and parameter optimization using Bayesian methods
+- **Computational Success Metrics**:
+  - Model predictions explain ≥80% of variance in observed synergy data
+  - Identification of ≥3 critical pathway nodes mediating synergy
+  - Prediction accuracy ≥85% for novel combination effects in held-out data
+- **Dataset Requirements**: Metabolic pathway databases (KEGG, Reactome), experimental synergy data
+- **Expected Runtime**: 3-5 days for model construction and optimization
+
+### Experiment 9: Natural Language Processing for Literature Meta-Analysis
+**Primary Bit Flip**: Automated literature analysis can identify hidden patterns across species and compound classes that human researchers miss.
+
+- **Objective**: Use NLP and knowledge graph approaches to identify novel research directions from comprehensive literature analysis
+- **Hypothesis**: NLP analysis of 1000+ papers will identify ≥5 unexplored bioactive compound applications with >70% predicted success probability
+- **AI-Executable Methodology**:
+  1. Large-scale literature mining using BioBERT and PubMedBERT models
+  2. Named entity recognition for compounds, species, and biological functions
+  3. Knowledge graph construction linking compounds, functions, and species
+  4. Relationship extraction using transformer-based models
+  5. Novel hypothesis generation using graph neural networks
+- **Computational Success Metrics**:
+  - Analysis of ≥1000 relevant papers with >90% precision in entity extraction
+  - Knowledge graph with ≥10,000 nodes and ≥50,000 relationships
+  - Generation of ≥20 testable hypotheses ranked by predicted impact
+- **Dataset Requirements**: PubMed abstracts, full-text articles, chemical databases (ChEMBL, PubChem)
+- **Expected Runtime**: 2-3 days for data processing and analysis
+
+### Experiment 10: Reinforcement Learning for Experimental Design Optimization
+**Primary Bit Flip**: AI agents can design more efficient experimental protocols than traditional hypothesis-driven approaches.
+
+- **Objective**: Train reinforcement learning agents to optimize experimental design for bioactive compound discovery
+- **Hypothesis**: RL-designed experiments will achieve same statistical power with 30-50% fewer resources/samples
+- **AI-Executable Methodology**:
+  1. Multi-armed bandit algorithms for adaptive experimental design
+  2. Bayesian optimization for hyperparameter tuning of assay conditions
+  3. Active learning for optimal sample selection in dose-response studies
+  4. Simulation-based policy training using historical experimental data
+  5. Transfer learning across different compound classes and assay types
+- **Computational Success Metrics**:
+  - RL agent achieves ≥90% of traditional experiment statistical power with ≤70% of samples
+  - Identification of ≥3 overlooked experimental variables that improve outcome prediction
+  - Successful transfer learning across ≥2 different experimental contexts
+- **Dataset Requirements**: Historical experimental data, assay protocols, statistical power analysis
+- **Expected Runtime**: 4-7 days for agent training and validation
+
+## Enhanced Resource Requirements for AI-Executable Experiments
+
+**Computational Infrastructure**:
+- High-performance computing cluster with GPU support (≥4 A100 GPUs)
+- Access to molecular dynamics simulation software (GROMACS, AMBER)
+- Bioinformatics software stack (BioPython, RDKit, Open-MM)
+- Machine learning frameworks (PyTorch, TensorFlow, Transformers)
+
+**Data Access Requirements**:
+- PubMed/PMC full-text access for literature mining
+- Protein Data Bank (PDB) structural data
+- ChEMBL/PubChem chemical databases
+- GenBank sequence databases
+- Metabolic pathway databases (KEGG, Reactome)
+
+**Model Validation Protocol**:
+- Cross-validation using held-out datasets
+- Comparison against published experimental results
+- Statistical significance testing for all predictions
+- Reproducibility verification through independent runs
+- Integration with existing experimental validation data
 
 ---
-*This section is being enhanced by The Research Company AI Agent*
+*Enhanced with AI-executable experiments following CS197 methodology*
