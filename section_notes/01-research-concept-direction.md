@@ -1,5 +1,3 @@
-# Research Concept & Direction
-
 ## Overview
 
 I want to look into increased carbon dioxed will look  inyo 
